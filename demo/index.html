@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yandex Transalter</title>
+</head>
+<body>
+	<h1>Yandex Translate </h1>
+		<table>
+				<tbody>
+					<tr>
+						<td>Key Yandex </td>
+						<td>:</td>
+						<td><input type="text" id="key" placeholder="get key/token in yandex.com" /></td>
+					</tr>
+					<tr>
+						<td colspan="3"></td>
+					</tr>
+					<tr>
+						<td>word</td>
+						<td>:</td>
+						<td><textarea id="word" rows="5" cols="40"></textarea></td>
+					</tr>
+					<tr>
+						<td>Transalte From</td>
+						<td>:</td>
+						<td>
+							<select id="fro">
+							   <option value="id">indonesia</option>
+							   <option value="en">english</option>
+						    </select>
+					     </td>
+					</tr>
+					<tr>
+						<td>Transalte to</td>
+						<td>:</td>
+						<td>
+							<select id="tto">
+							   <option value="id">indonesia</option>
+							   <option value="en">english</option>
+						    </select>
+					     </td>
+					</tr>
+					<tr>
+						<td>result</td>
+						<td>:</td>
+						<td><textarea id="result" rows="5" cols="40" readonly=""></textarea></td>
+					</tr>
+					<tr>
+						<td colspan="3"><button id="sub">submit</button></td>
+					</tr>
+				</tbody>
+		</table>
+<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+<script src="../assets/js/yandexTransalter.js"></script>
+</body>
+</html>
